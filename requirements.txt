@@ -1,0 +1,18 @@
+# requirements.txt - Python packages for Project 3 (Customer Segmentation)
+# Install with:  pip install -r requirements.txt
+
+# Data handling
+pandas>=2.2
+numpy>=2.0
+
+# Machine learning: StandardScaler, PCA, KMeans, silhouette_score
+scikit-learn>=1.5
+
+# Finds the "elbow" mathematically (Kneedle algorithm, training kit slide 14)
+kneed>=0.8
+
+# Figures (2D and 3D scatter plots)
+matplotlib>=3.9
+
+# Notebook
+ipykernel>=6.29
